@@ -1,4 +1,3 @@
-// types/index.ts
 export type Severity = "high" | "medium" | "low"
 
 export interface Violation {
@@ -45,12 +44,25 @@ export interface ShariahStandard {
   title: string
   summary: string
   source: string
-  key_requirements?: string[]
 }
 
-export interface ServerHealth {
-  status: string
-  pdf_folder?: string
-  search_enabled: boolean
-  is_demo_mode: boolean
+// Zakat Calculator Types
+export interface ZakatCalculationResult {
+  classified_accounts: {
+    zakatable_assets: Record<string, number>
+    non_zakatable_assets: Record<string, number>
+    deductible_liabilities: Record<string, number>
+    non_deductible_liabilities: Record<string, number>
+  }
+  total_zakatable_assets: number
+  total_deductible_liabilities: number
+  zakat_base: number
+  nisab_value: number
+  zakat_rate: number
+  exceeds_nisab: boolean
+  zakat_due: boolean
+  zakat_amount: number
+  calculation_date: string
+  compliance_advice?: string
+  optimization_suggestions?: string
 }

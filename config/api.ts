@@ -16,4 +16,8 @@ export const API_ENDPOINTS = {
   FIND_SOURCE: `${API_BASE_URL}/find-source`,
   APPLICABLE_STANDARDS: `${API_BASE_URL}/applicable-standards`,
   HEALTH: `${API_BASE_URL.replace("/api", "")}/health`,
+  // New Zakat calculator endpoints
+  ZAKAT_CALCULATE: `${API_BASE_URL}/zakat/calculate`,
+  ZAKAT_CERTIFICATE: `${API_BASE_URL}/zakat/certificate`,
+  ZAKAT_REPORT: `${API_BASE_URL}/zakat/report`,
 }

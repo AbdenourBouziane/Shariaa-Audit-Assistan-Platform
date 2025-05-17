@@ -11,6 +11,7 @@ import AuditForm from "@/components/audit-form"
 import ResultsSection from "@/components/results-section"
 import type { AuditResult } from "@/types"
 import { checkServerHealth } from "./actions"
+import MobileAppPromo from "@/components/mobile-app-promo"
 
 const EXAMPLE_CONTRACT = `This Murabaha agreement involves deferred payment terms with added profit markup. 
 The seller retains ownership until full payment. An early payment penalty may apply in cases of default. 
@@ -71,6 +72,7 @@ export default function Home() {
 
       <Box component="main" sx={{ flexGrow: 1, pt: 8 }}>
         <HeroSection />
+        <MobileAppPromo />
         <HowItWorks />
 
         <Box
