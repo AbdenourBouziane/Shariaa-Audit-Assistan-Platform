@@ -12,6 +12,28 @@ This application provides tools for financial institutions and individuals to en
 - **💸 Zakat Calculator** – Calculate business Zakat based on AAOIFI FAS 9 standards.
 - **📄 Detailed Reports** – Generate comprehensive compliance reports and Shariah certificates.
 
+## 📸 Screenshots
+
+Here are some screenshots of the application in action:
+
+### Home Screen
+![Home Screen](/public/images/home_screen.png)
+
+### Standards Explorer
+![Standards Explorer](/public/images/standards_explorer.png)
+
+### Glossary Screen
+![Glossary Screen](/public/images/glossary_screen.png)
+
+### Tutorial Screen
+![Tutorial Screen](/public/images/tutorial_screen.png)
+
+### Application UI Samples
+![Application UI](/screenshots/Screenshot%202025-05-18%20012417.png)
+![Financial Analysis](/screenshots/Screenshot%202025-05-18%20012428.png)
+![Compliance Reports](/screenshots/Screenshot%202025-05-18%20012435.png)
+![Zakat Calculator](/screenshots/Screenshot%202025-05-18%20012441.png)
+
 ## ✨ Features
 
 - 🔍 **Smart Contract Analysis** – Advanced NLP-based analysis to flag non-compliant clauses.
@@ -32,9 +54,9 @@ This application provides tools for financial institutions and individuals to en
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/shariah-audit-tool.git
+   git clone https://github.com/AbdenourBouziane/shariah-audit-tool.git
    cd shariah-audit-tool
-````
+   ```
 
 2. **Install dependencies:**
 
